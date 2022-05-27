@@ -67,3 +67,7 @@ function vowelIndices(word) {
 * **POLISH**: A2
 
 ---
+
+[My GitHub](https://github.com/shutikate) 
+2022
+[RS-School](https://rs.school/js/) 
