@@ -45,3 +45,25 @@ function vowelIndices(word) {
   return res;
 }
 ```
+
+## Contacts
+
+**Tel**: +48 517 289 505
+**E-mail**: shutikova.k@gmail.com
+**Diskord nikname**: shutikate(@shutikate)
+
+## Skills
+
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+
+## Languages
+
+* **RUSSIAN**: native
+* **ENGLISH**: A1+
+* **ITALIAN**: B2
+* **POLISH**: A2
+
+---
