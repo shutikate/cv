@@ -4,8 +4,148 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div class="header-main-aside-content">
+      <div class="header-main-content">
+        <!-- header -->
+        <header class="header-content">
+          <nav>                    
+            <ul class="menu">
+              <li class="menu-item"><a href="#about-me" class="menu-item-link">About me</a></li>
+              <li class="menu-item"><a href="#education" class="menu-item-link">Education</a></li>
+              <li class="menu-item"><a href="#work-experience" class="menu-item-link">Work experience</a></li>
+              <li class="menu-item"><a href="#courses" class="menu-item-link">Courses</a></li>
+              <li class="menu-item"><a href="#code" class="menu-item-link">Code</a></li>
+              <li class="menu-item"><a href="#my-projects" class="menu-item-link">My projects</a></li>
+              <li class="menu-item"><a href="#contacts" class="menu-item-link">Contacts</a></li>
+              <li class="menu-item"><a href="#skills" class="menu-item-link">Skills</a></li>
+              <li class="menu-item"><a href="#languages" class="menu-item-link">Languages</a></li>
+            </ul>
+          </nav>
+          <h1 class="main-title">Katsiaryna Shutsikava</h1> 
+          <h3>Junior Frontend Developer</h3>
+          <div class="header-background"></div>
+        </header>
+
+        <!-- main -->
+        <main class="main-content">
+          
+          <section class="about-me" id="about me">
+            <h2>About me</h2>
+            <hr class="dividing-line"/>
+            <p class="section-text">
+                I graduated from the Belorussian State University of Transport, worked as a railroad еngineer, but in 
+                future I want to become a frontend developer and connect my future activities with the IT industry.</br>
+                Such qualities like responsibility, attentiveness, desire to expand my education, help me in my work.</br>
+                I like to learn new things, to find solutions for different tasks, good team player.
+            </p>
+          </section>
+          
+          <section class="education" id="education">
+            <h2>Education</h2>
+            <hr class="dividing-line"/>
+            <p class="section-text block-company">Belorussian State University of Transport</p>
+            <p class="section-text block-period">Sep 2005 - Jun 2010</p>
+            <p class="section-text">Engineer</p>
+          </section> 
+          
+          <section class="work-experience" id="work-experience">
+            <h2>Work experience</h2>
+            <hr class="dividing-line"/>
+            <p class="section-text block-company">Main Settlement Information Computing Centre of the Belarusian Railway</p>
+            <p class="section-text block-period">Aug 2010 - Sep 2021</p>
+            <p class="section-text">Engineer</p>
+          </section> 
+          
+          <section class="courses" id="courses">
+            <h2>Courses</h2>
+            <hr class="dividing-line"/>
+            <ul class="section-text list-courses">
+              <li class="list-courses-item">HTML and CSS self-study</li>
+              <li class="list-courses-item">JavaScript Manual on learnjavascript.ru</li>
+              <li class="list-courses-item">RS Schools «JavaScript/Front-end. Stage 0»</li>
+              <li class="list-courses-item"><a href="https://www.codewars.com/users/shutikate" class="list-courses-link">Codewars Profile</a></li>
+            </ul>
+          </section>
+
+          <section class="code-exemple" id="code">
+            <h2>Code example</h2>
+            <hr class="dividing-line"/>
+            <pre class="code-content"><code>
+function vowelIndices(word) {
+let arr = ['a', 'e', 'i', 'o', 'u', 'y'];
+let res = [];
+let s = word.toLowerCase();
+for (let i = 0; i < s.length; i++) {
+    if(arr.includes(s[i])) {
+        res.push(i + 1);
+    }
+}
+return res;
+}                   
+            </code></pre>
+          </section>
+               
+          <section class="my-projects" id="my-projects">
+            <h2>My projects</h2>
+            <hr class="dividing-line"/>
+            <a href="https://shutikate.github.io/rsschool-cv/" class="projects-link">CV</a> 
+          </section>
+        </main>
+      </div> 
+
+        <!-- sidebar -->
+        <aside class="sidebar-content">
+          
+          <div class="contacts" id="contacts">
+            <h3 class="title-sidebar">Contacts</h3>
+            <hr class="dividing-line"/>
+            <ul class="section-text list-contacts">
+              <li class="list-contacts-item">
+                <a href="tel:+48 517 289 505" class="list-contacts-center list-contacts-link">+48 517 289 505</a>
+              </li>
+              <li class="list-contacts-item">
+                <a href="mailto:shutikova.k@gmail.com" class="list-contacts-center list-contacts-link">shutikova.k@gmail.com</a>
+              </li>
+              <li class="list-contacts-item list-contacts-center">
+                diskord: shutikate#7262
+              </li>
+            </ul>
+          </div>
+          
+          <div class="skills" id="skills">
+            <h3 class="title-sidebar">Skills</h3>
+            <hr class="dividing-line"/>
+            <ul class="section-text list-skills">
+              <li class="list-skills-item">HTML5, CSS3</li>
+              <li class="list-skills-item">JavaScript Basics</li>
+              <li class="list-skills-item">Git, GitHub</li>
+              <li class="list-skills-item">VS Code</li>
+            </ul>
+          </div>
+
+          <div id="languages">
+            <h3 class="title-sidebar">Languages</h3>
+            <hr class="dividing-line"/>
+            <ul class="section-text list-languages">
+              <li class="list-languages-item">RUSSIAN: native</li>
+              <li class="list-languages-item">ENGLISH: A1+</li>
+              <li class="list-languages-item">ITALIAN: B2</li>
+              <li class="list-languages-item">POLISH: A2</li>
+            </ul>
+          </div>
+        </aside>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-content">
+      <a href="https://github.com/shutikate" class="my-github">My_GitHub</a>
+      <p>&copy; 2022</p>
+      <a href="https://rs.school/js/"></a>
+    </footer>
+  </div>
 </body>
 </html>
