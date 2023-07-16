@@ -13,95 +13,80 @@
       <div class="header-main-content">
         <!-- header -->
         <header class="header-content">
-          <nav> 
-            <input id="menu-toggle" type="checkbox">
-            <label class="menu-btn" for="menu-toggle">
-              <span></span>
-            </label>                   
-            <ul class="menu">
-              <li class="menu-item"><a href="#about-me" class="menu-item-link">About me</a></li>
-              <li class="menu-item"><a href="#education" class="menu-item-link">Education</a></li>
-              <li class="menu-item"><a href="#work-experience" class="menu-item-link">Work experience</a></li>
-              <li class="menu-item"><a href="#courses" class="menu-item-link">Courses</a></li>
-              <li class="menu-item"><a href="#code" class="menu-item-link">Code</a></li>
-              <li class="menu-item"><a href="#my-projects" class="menu-item-link">My projects</a></li>
-              <li class="menu-item"><a href="#contacts" class="menu-item-link">Contacts</a></li>
-              <li class="menu-item"><a href="#skills" class="menu-item-link">Skills</a></li>
-              <li class="menu-item"><a href="#languages" class="menu-item-link">Languages</a></li>
-            </ul>
-          </nav>
           <img src="assets/img/my-photo.jpg" alt="my photo" class="header-logo">
-          <h1 class="main-title">Katsiaryna Shutsikava</h1> 
+          <h1 class="main-title">Katsiaryna Shutsikava</h1>
           <h4>Junior Frontend Developer</h4>
           <div class="header-background"></div>
         </header>
 
         <!-- main -->
         <main class="main-content">
-          
+
           <section class="about-me" id="about-me">
             <h2 class="second-title">About me</h2>
             <hr class="dividing-line"/>
             <p>
-                I graduated from the Belorussian State University of Transport, worked as a railroad еngineer, but in 
-                future I want to become a frontend developer and connect my future activities with the IT industry.
+                I graduated from the Belorussian State University of Transport, worked as a railroad engineer, but now I
+                am a beginner frontend developer and I want connect my future activities with the IT industry.
                 Such qualities like responsibility, attentiveness, desire to expand my education, help me in my work.
-                I like to learn new things, to find solutions for different tasks, good team player.
+                I like to learn new things, to find solutions for different tasks, good team player and always ready to help.
             </p>
           </section>
-          
+
           <section class="education" id="education">
             <h2 class="second-title">Education</h2>
             <hr class="dividing-line"/>
             <p class="block-company">Belorussian State University of Transport</p>
             <p class="block-period">Sep 2005 - Jun 2010</p>
             <p>Engineer</p>
-          </section> 
-          
+          </section>
+
           <section class="work-experience" id="work-experience">
             <h2 class="second-title">Work experience</h2>
             <hr class="dividing-line"/>
             <p class="block-company">Main Settlement Information Computing Centre of the Belarusian Railway</p>
             <p class="block-period">Aug 2010 - Sep 2021</p>
             <p>Engineer</p>
-          </section> 
-          
+          </section>
+
           <section class="courses" id="courses">
             <h2 class="second-title">Courses</h2>
             <hr class="dividing-line"/>
             <ul class="list-courses">
-              <li class="list-courses-item">HTML and CSS self-study</li>
-              <li class="list-courses-item">JavaScript Manual on learnjavascript.ru</li>
-              <li class="list-courses-item">RS Schools «JavaScript/Front-end. Stage 0»</li>
-              <li class="list-courses-item"><a href="https://www.codewars.com/users/shutikate" class="list-courses-link">Codewars Profile</a></li>
+              <li class="list-courses-item">JAVASCRIPT/FRONT-END Pre-School 2022Q2(stage 0), THE ROLLING SCOPES SCHOOL</li>
+              <li class="list-courses-item">JAVASCRIPT/FRONT-END 2022Q3(stage 1, stage 2), THE ROLLING SCOPES SCHOOL</li>
+              <li class="list-courses-item">REACT (stage 3), THE ROLLING SCOPES SCHOOL</li>
             </ul>
           </section>
 
-          <section class="code-example" id="code">
-            <h2 class="second-title">Code example</h2>
-            <hr/>
-            <pre class="code-content"><code>
-function vowelIndices(word) {
-let arr = ['a', 'e', 'i', 'o', 'u', 'y'];
-let res = [];
-let s = word.toLowerCase();
-for (let i = 0; i &lt; s.length; i++) {
-    if(arr.includes(s[i])) {
-        res.push(i + 1);
-    }
-}
-return res;
-}                   
-            </code></pre>
-          </section>
-               
-          <section class="my-projects" id="my-projects">
-            <h2 class="second-title" >My projects</h2>
+          <section class="skills" id="skills">
+            <h3 class="third-title">Skills</h3>
             <hr class="dividing-line"/>
-            <a href="https://shutikate.github.io/momentum/" class="projects-link">Momentum</a> 
+            <ul class="list-skills">
+              <li class="list-skills-item">HTML5, CSS3, Sass, Styled-components</li>
+              <li class="list-skills-item">JS, TS</li>
+              <li class="list-skills-item">React, React-Query, Redux, Redux Toolkit</li>
+              <li class="list-skills-item">MUI</li>
+              <li class="list-skills-item">Git</li>
+              <li class="list-skills-item">Webpack, Vite</li>
+            </ul>
+          </section>
+
+          <section class="my-projects" id="my-projects">
+            <h2 class="second-title" >Educational projects</h2>
+            <hr class="dividing-line"/>
+            <a href="https://shutikate.github.io/momentum/" class="projects-link">Momentum (JS)</a>
+            <a href="https://shutikate.github.io/travel/" class="projects-link">Travel (JS)</a>
+            <a href="https://shutikate.github.io/online-zoo/pages/main" class="projects-link">Online Zoo (JS)</a>
+            <a href="https://shutikate.github.io/songbird/" class="projects-link">SongBird Quiz (JS)</a>
+            <a href="https://shutikate.github.io/puzzle-game/" class="projects-link">Puzzle Game (JS)</a>
+            <a href="https://development--fantastic-maamoul-87ae4e.netlify.app/" class="projects-link">Online Store (React + TS)</a>
+            <a href="https://alienteam-rsdoctors.netlify.app/" class="projects-link">RS Doctors (React + TS + AWS)</a>
+            <a href="https://graphiql-app-git-develop-anhelina.vercel.app/" class="projects-link">GraphiQL (React + TS + Next)</a>
+            <p>- Sandbox project with React, React-Query, MUI</p>
           </section>
         </main>
-      </div> 
+      </div>
 
         <!-- sidebar -->
       <aside class="sidebar-content">
@@ -112,14 +97,12 @@ return res;
           <h3 class="third-title">Contacts</h3>
           <hr class="dividing-line"/>
           <ul class="list-contacts">
-            <li class="list-contacts-item">
-              <a href="tel:+48517289505" class="list-contacts-center list-contacts-link">
+            <li class="list-contacts-item list-contacts-center">
                 <img src="assets/img/Tel-Phone.png" alt="Phone" class="list-contacts-icon">+48 517 289 505
-              </a>
             </li>
             <li class="list-contacts-item">
-              <a href="mailto:shutikova.k@gmail.com" class="list-contacts-center list-contacts-link">
-                <img src="assets/img/e-mail-1.jpg" alt="E-mail" class="list-contacts-icon">shutikova.k@gmail.com
+              <a href="https://t.me/shutikate" class="list-contacts-center list-contacts-link">
+                <img src="assets/img/telegram_logo.png" alt="Telegram" class="list-contacts-icon">@shutikate
               </a>
             </li>
             <li class="list-contacts-item list-contacts-center">
@@ -127,17 +110,7 @@ return res;
             </li>
           </ul>
         </div>
-          
-        <div class="skills" id="skills">
-          <h3 class="third-title">Skills</h3>
-          <hr class="dividing-line"/>
-          <ul class="list-skills">
-            <li class="list-skills-item">HTML5, CSS3</li>
-            <li class="list-skills-item">JavaScript Basics</li>
-            <li class="list-skills-item">Git, GitHub</li>
-            <li class="list-skills-item">VS Code</li>
-          </ul>
-        </div>
+
 
         <div id="languages">
           <h3 class="third-title">Languages</h3>
@@ -155,8 +128,7 @@ return res;
     <!-- footer -->
     <footer class="footer-content">
       <a href="https://github.com/shutikate" class="my-github"><img src="assets/img/github_PNG83.png" alt="GitHub" class="my-github-icon"> My_GitHub</a>
-      <p>&copy; 2022</p>
-      <a href="https://rs.school/js/"><img src="assets/img/rs_school.svg" alt="RS-School" class="rs-school-icon"></a>
+      <p>&copy; 2023</p>
     </footer>
   </div>
 </body>
